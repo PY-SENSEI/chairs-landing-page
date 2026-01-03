@@ -6,8 +6,8 @@ import NavBtn from "./NavBtn";
 const Header = () => {
   return (
     <header
-      className="fixed border-b border-b-zinc-300 bg-white/50 backdrop-blur-lg min-w-full lg:px-7 px-4
-    sm:px-8 mx-w-7xl overflow-x-auto"
+      className="fixed border-b border-b-zinc-300 bg-white/50 backdrop-blur-lg min-w-full lg:py-4 px-4
+    sm:px-8 max-w-7xl overflow-x-clip z-99"
     >
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}

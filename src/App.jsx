@@ -1,5 +1,7 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import NewArrival from "./components/NewArrival";
+import ShopByRoom from "./components/ShopByRoom";
 import Trending from "./components/Trending";
 
 const App = () => {
@@ -7,13 +9,17 @@ const App = () => {
     <div className="min-h-screen overflow-clip">
       {/* Header */}
       <Header />
-        <hr className="text-zinc-300 -mt-2" />
+      <hr className="text-zinc-300 -mt-2" />
       <main>
         <Hero />
-        <hr className="text-zinc-300" />
-          <Trending />
+        <hr className="text-zinc-300 " />
+        <Trending />
+        <hr className="text-zinc-300 " />
+        <NewArrival />
+        <hr className="text-zinc-300 " />
+        <ShopByRoom />
       </main>
-      
+
       {/* footer */}
     </div>
   );

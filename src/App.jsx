@@ -1,3 +1,5 @@
+import Footer from "./components/Footer";
+import GetInspired from "./components/GetInspired";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import NewArrival from "./components/NewArrival";
@@ -18,9 +20,13 @@ const App = () => {
         <NewArrival />
         <hr className="text-zinc-300 " />
         <ShopByRoom />
+        <hr className="text-zinc-300 " />
+        <GetInspired />
       </main>
 
       {/* footer */}
+
+      <Footer />
     </div>
   );
 };

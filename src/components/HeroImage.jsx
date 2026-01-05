@@ -8,7 +8,7 @@ const HeroImage = ({ src }) => {
           backgroundSize: "cover",
         }}
         className="aspect-video saturate-120 lg:h-[250px] w-full bg-zinc-200
-      flex items-center justify-center text-zinc-500"
+      flex items-center justify-center text-zinc-500 hover:scale-110 duration-150 ease-in-out cursor-pointer"
       >
         {/* Image placehoder */}
         {src ? "" : <span className="text-lg">Hero image placeholder</span>}

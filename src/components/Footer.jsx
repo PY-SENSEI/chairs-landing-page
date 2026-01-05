@@ -36,7 +36,7 @@ const Footer = () => {
           src="/images/sofa.png"
           alt="sofa_image"
           className="bottom-0 left-1/2 -translate-1/2 lg:w-[400px] mt-10 lg:mt-20
-                fixed hover:animate-wiggle duration-700 ease-in-out cursor-pointer"
+                absolute hover:animate-wiggle duration-700 ease-in-out cursor-pointer"
         />
       </div>
       {/* bottom area: Copyright and social icons */}
